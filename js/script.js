@@ -99,23 +99,22 @@ window.addEventListener('DOMContentLoaded', () => {
     const modalTrigger = document.querySelectorAll('[data-modal]');
     const modalCloseBtn = document.querySelector('[data-close]');
 
-    modalTrigger.forEach(btn => {
-       btn.addEventListener('click', () => {
+    function openModal() {
         modalWindow.classList.add('show');
         modalWindow.classList.remove('hide');
-
         // modalWindow.classList.toggle('show');
-
         document.body.style.overflow = 'hidden'; // запрет скролла основной странице при вызове модального окна
-       });
+        clearInterval(modalTimerId);
+    }
+
+    modalTrigger.forEach(btn => {
+        btn.addEventListener('click', openModal);
     });
 
     function closeModal() {
         modalWindow.classList.add('hide');
         modalWindow.classList.remove('show');
-
         // modalWindow.classList.toggle('show');
-
         document.body.style.overflow = '';
     }
 
@@ -132,4 +131,16 @@ window.addEventListener('DOMContentLoaded', () => {
             closeModal();
         }
     });
+
+    const modalTimerId = setTimeout(openModal, 3000);
+
+    function showModalByScroll() {
+        if (window.pageYOffset + document.documentElement.clientHeight 
+            >= document.documentElement.scrollHeight) {
+                openModal();
+                window.removeEventListener('scroll', showModalByScroll);
+            }
+    }
+
+    window.addEventListener('scroll', showModalByScroll);
 });
