@@ -27,3 +27,9 @@
 - Осуществление появления модального окна через определенное время пребывания на странице 
 
 <img src="./Screenshots for README/UpdatedModalWindow_scr4.jpg" alt="img"/>
+
+## Five practic lession:
+
+- Создание карточек на странице с исспользованием классов
+
+<img src="./Screenshots for README/UsingClassesForCards_scr5.jpg" alt="img"/>
