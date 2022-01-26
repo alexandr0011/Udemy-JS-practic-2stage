@@ -40,3 +40,10 @@
 
 <img src="./Screenshots for README/Forms_scr6.jpg" alt="img"/>
 <img src="./Screenshots for README/Forms_scr7.jpg" alt="img"/>
+
+## 07 practic lession:
+
+- Красивое оповещение пользователя
+- Добавление спинера в форму
+
+<img src="./Screenshots for README/UserNotification_scr8.jpg" alt="img"/>
