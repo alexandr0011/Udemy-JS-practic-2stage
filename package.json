@@ -1,0 +1,22 @@
+{
+  "name": "food",
+  "version": "1.0.0",
+  "description": "- Реализация табов\r - Реализация анимации табов при их переключении",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandr0011/Udemy-JS-practic-2stage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandr0011/Udemy-JS-practic-2stage/issues"
+  },
+  "homepage": "https://github.com/alexandr0011/Udemy-JS-practic-2stage#readme",
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}
