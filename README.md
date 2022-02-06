@@ -47,3 +47,10 @@
 - Добавление спинера в форму
 
 <img src="./Screenshots for README/UserNotification_scr8.jpg" alt="img"/>
+
+## 08 practic lession:
+
+- Создание слайдера на сайте
+- Добавление навигации слайдов
+
+<img src="./Screenshots for README/Slider_scr9.jpg" alt="img"/>
