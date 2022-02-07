@@ -54,3 +54,12 @@
 - Добавление навигации слайдов
 
 <img src="./Screenshots for README/Slider_scr9.jpg" alt="img"/>
+
+## 09 practic lession:
+
+- Реализация калькулятора подсчета калорий
+- Запоминание базовых настроек калькулятора в localStorage и работа с ними при инициализации страницы
+- Валидация форм инпута калькулятора
+
+<img src="./Screenshots for README/Calc_scr10.jpg" alt="img"/>
+<img src="./Screenshots for README/Calc_scr11.jpg" alt="img"/>
